@@ -26,7 +26,7 @@
 #import "MDMCoreDataMacros.h"
 
 @interface MDMFetchedResultsCollectionDataSource ()
-@property(nonatomic, weak) UICollectionView *collectionView;
+
 @property(nonatomic, strong) NSMutableArray *objectChanges;
 @property(nonatomic, strong) NSMutableArray *sectionChanges;
 @end

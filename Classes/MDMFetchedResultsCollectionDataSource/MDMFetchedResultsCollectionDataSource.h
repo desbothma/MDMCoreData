@@ -80,6 +80,8 @@
 
 @interface MDMFetchedResultsCollectionDataSource : NSObject <UICollectionViewDataSource, NSFetchedResultsControllerDelegate>
 
+@property(nonatomic, weak) UICollectionView *collectionView;
+
 /**
  The `NSFetchedResultsController` to be used by the data source.
  */
